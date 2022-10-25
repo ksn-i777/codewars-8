@@ -1,0 +1,8 @@
+function bonusTime(salary, bonus) {
+// your code here
+  if (bonus) {
+    return '\u00A3' + '' + (salary*10).toString()
+  } else {
+    return '\u00A3' + '' + salary.toString()
+  }
+}
