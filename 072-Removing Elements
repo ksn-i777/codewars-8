@@ -1,0 +1,9 @@
+function removeEveryOther(arr){
+  //your code here
+  let a = []
+  for (let i = 0; i<arr.length; i+=2) {
+      a.push(arr[i])
+  }
+  console.log(a)
+  return a
+}
